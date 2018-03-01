@@ -2,12 +2,12 @@ import {isFocused} from '../test-common';
 
 const datePickerDriverFactory = component => {
   const getInput = () => component.$('input');
-  const getCalendar = () => component.$('.react-datepicker');
-  const getNthAvailableDay = n => component.$$('[role="option"]:not([class*="outside-month"])').get(n);
-  const getYearDropdown = () => component.$('[class$="year-read-view"]');
-  const getNthYear = n => component.$$('[class*="year-option"]').get(n);
-  const getMonthsDropdown = () => component.$('[class$="month-read-view"]');
-  const getNthMonth = n => component.$$('[class*="month-option"]').get(n);
+  const getCalendar = () => component.$('.DayPicker');
+  const getNthAvailableDay = n => component.$$('[role="gridcell"]:not([class*="outside"])').get(n);
+  const getYearDropdown = () => component.$('[data-hook="datepicker-year-dropdown-button"]');
+  const getNthYear = n => component.$(`[data-hook="datepicker-year-dropdown"] [data-hook="dropdown-item-${n}"]`);
+  const getMonthsDropdown = () => component.$('[data-hook="datepicker-month-dropdown-button"]');
+  const getNthMonth = n => component.$(`[data-hook="datepicker-month-dropdown-menu"] [data-hook="dropdown-item-${n === 0 ? n : n - 1}"]`);
 
   return {
     inputDriver: {
@@ -22,6 +22,7 @@ const datePickerDriverFactory = component => {
       isFocused: () => isFocused(getInput())
     },
     calendarDriver: {
+      getElement: () => getCalendar(),
       exists: () => getCalendar().isPresent(),
       isVisible: () => getCalendar().isDisplayed(),
       clickOnNthAvailableDay: (n = 0) => getNthAvailableDay(n).click(),
