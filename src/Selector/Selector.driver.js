@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 import {testkitFactoryCreator} from '../test-common';
 import {isClassExists} from '../../test/utils';
-import $ from 'jquery';
 import textDriverFactory from '../Text/Text.driver';
 
 const textTestkitFactory = testkitFactoryCreator(textDriverFactory);
 
 const selectorDriverFactory = ({element, wrapper, component}) => {
-  const el = $(element);
-  const toggleInput = () => el.find('[data-hook="toggle"]').children('input').eq(0);
+  const toggleInput = () => element.querySelector('[data-hook="toggle"] > input');
   const image = () => element.querySelector('[data-hook="selector-image"]');
   const titleTextDriver = () => textTestkitFactory({wrapper: element, dataHook: 'selector-title'});
   const subtitleTextDriver = () => textTestkitFactory({wrapper: element, dataHook: 'selector-subtitle'});
@@ -34,7 +32,7 @@ const selectorDriverFactory = ({element, wrapper, component}) => {
     subtitleTextDriver,
     hasExtraNode: () => !!extraNode(),
     getExtraNode: () => extraNode().childNodes[0],
-    toggle: () => ReactTestUtils.Simulate.click(el[0]),
+    toggle: () => ReactTestUtils.Simulate.click(element),
     setProps: props => {
       const ClonedWithProps = React.cloneElement(component, Object.assign({}, component.props, props), ...(component.props.children || []));
       ReactDOM.render(<div ref={r => element = r}>{ClonedWithProps}</div>, wrapper);
