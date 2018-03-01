@@ -165,9 +165,6 @@ export const tpaFloatingTabsTestkitFactory = testkitFactoryCreator(tpaFloatingTa
 import tpaInputDriverFactory from '../src/TPA/Input/Input.driver';
 export const tpaInputTestkitFactory = testkitFactoryCreator(tpaInputDriverFactory);
 
-import tpaBadgeDriverFactory from '../src/TPA/Badge/Badge.driver';
-export const tpaBadgeTestkitFactory = testkitFactoryCreator(tpaBadgeDriverFactory);
-
 import tpaLabelDriverFactory from '../src/TPA/Label/Label.driver';
 export const tpaLabelTestkitFactory = testkitFactoryCreator(tpaLabelDriverFactory);
 
@@ -176,9 +173,6 @@ export const fieldLabelAttributesTestkitFactory = testkitFactoryCreator(fieldLab
 
 import popoverMenuDriverFactory from '../src/PopoverMenu/PopoverMenu.driver';
 export const popoverMenuTestkitFactory = testkitFactoryCreator(popoverMenuDriverFactory);
-
-import badgeDriverFactory from '../src/Badge/Badge.driver';
-export const badgeTestkitFactory = testkitFactoryCreator(badgeDriverFactory);
 
 import datePickerDriverFactory from '../src/DatePicker/DatePicker.driver';
 export const datePickerTestkitFactory = testkitFactoryCreator(datePickerDriverFactory);
@@ -209,3 +203,7 @@ export const modalSelectorLayoutTestkitFactory = testkitFactoryCreator(modalSele
 
 import sectionHelperDriverFactory from '../src/SectionHelper/SectionHelper.driver';
 export const sectionHelperTestkitFactory = testkitFactoryCreator(sectionHelperDriverFactory);
+
+// wix-ui-backoffice proxy
+
+export {badgeTestkitFactory} from 'wix-ui-backoffice/dist/src/testkit';

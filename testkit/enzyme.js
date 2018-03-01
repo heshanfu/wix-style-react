@@ -171,9 +171,6 @@ export const fieldLabelAttributesTestkitFactory = enzymeTestkitFactoryCreator(fi
 import popoverMenuDriverFactory from '../src/PopoverMenu/PopoverMenu.driver';
 export const popoverMenuTestkitFactory = enzymeTestkitFactoryCreator(popoverMenuDriverFactory);
 
-import badgeDriverFactory from '../src/Badge/Badge.driver';
-export const badgeTestkitFactory = enzymeTestkitFactoryCreator(badgeDriverFactory);
-
 import datePickerFactory from '../src/DatePicker/DatePicker.driver';
 export const datePickerTestkitFactory = enzymeTestkitFactoryCreator(datePickerFactory);
 
@@ -203,3 +200,7 @@ export const modalSelectorLayoutTestkitFactory = enzymeTestkitFactoryCreator(mod
 
 import sectionHelperDriverFactory from '../src/SectionHelper/SectionHelper.driver';
 export const sectionHelperTestkitFactory = enzymeTestkitFactoryCreator(sectionHelperDriverFactory);
+
+// wix-ui-backoffice proxy
+
+export {badgeTestkitFactory} from 'wix-ui-backoffice/dist/src/testkit/enzyme';
