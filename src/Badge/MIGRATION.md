@@ -22,7 +22,7 @@ Instead, we are going to have 2 components:
 
 `skin` - This is the prop which controlls the color of the Badge. It has some new values which you should check out in the storybook, but these are the main important changes:
 
-- `default` ---> `grey`
+- `default` ---> `neutral`
 
 - `primary` -> changing a little bit and being renamed to `standard`
 
