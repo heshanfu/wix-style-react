@@ -1,1 +1,1 @@
-export {CounterBadge as default} from 'wix-ui-backoffice/CounterBadge';
+export {CounterBadge as default} from 'wix-ui-backoffice/StylableCounterBadge';

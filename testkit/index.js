@@ -206,4 +206,4 @@ export const sectionHelperTestkitFactory = testkitFactoryCreator(sectionHelperDr
 
 // wix-ui-backoffice proxy
 
-export {badgeTestkitFactory} from 'wix-ui-backoffice/dist/src/testkit';
+export {badgeTestkitFactory, stylableCounterBadgeDriverFactory as counterBadgeDriverFactory} from 'wix-ui-backoffice/dist/src/testkit';

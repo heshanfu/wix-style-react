@@ -128,4 +128,4 @@ export const tabsTestkitFactory = protractorTestkitFactoryCreator(tabsDriverFact
 
 // wix-ui-backoffice proxy
 
-export {badgeTestkitFactory} from 'wix-ui-backoffice/dist/src/testkit/protractor';
+export {badgeTestkitFactory, stylableCounterBadgeDriverFactory as counterBadgeDriverFactory} from 'wix-ui-backoffice/dist/src/testkit/protractor';
