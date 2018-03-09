@@ -12,7 +12,7 @@ export default {
     onChange: value => setState({value}),
     dateFormat: 'YYYY/MM/DD',
     dataHook: 'storybook-datepicker',
-    value: new Date('2017/05/01')
+    value: new Date()
   }),
 
   exampleProps: {
