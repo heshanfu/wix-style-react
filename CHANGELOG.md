@@ -12,6 +12,13 @@ Types of changes:
 1. **Security** in case of vulnerabilities.
 1. **Breaking** for breaking changes
 
+## 3.0.0
+### Breaking
+- `<DatePicker/>` [migration guide](https://github.com/wix/wix-style-react/master/blob/master/src/DatePicker/MIGRATION-3.0.0.md)
+- `<Badge/>` [migration guide](https://github.com/wix/wix-style-react/master/blob/master/src/Badge/Migration.md)
+- jQuery no longer used in testkits, may possibly break your tests
+- `<Text/>` - no more unexpected `margins` when using any of the following `appearance`s: `H0`, `H1`, `H1.1`, `H2`, `H2.1`, `H3`, `H4`. May break layout.
+
 ## 2.0.34 - 2018-03-26
 ### Fixed
 - `<Tooltip/>` - fixed Tooltip show and hide functions to accept the relevant props [#1597](https://github.com/wix/wix-style-react/pull/1597)
