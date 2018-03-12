@@ -236,7 +236,6 @@ describe('Input', () => {
 
   describe('onChange attribute', () => {
     it('should be called when text is entered to the input', () => {
-
       const onChange = jest.fn();
       const event = {target: {value: 'world'}};
 
@@ -536,7 +535,6 @@ describe('Input', () => {
       const driver = createDriver(<Input size="large"/>);
       expect(driver.isOfSize('large')).toBeTruthy();
     });
-
   });
 
   describe('prefix attribute', () => {
@@ -605,9 +603,12 @@ describe('Input', () => {
       const driver = createDriver(<Input/>);
       expect(driver.getAriaDescribedby()).toBeNull;
     });
-
   });
 
+  it('should set `width`', () => {
+    const driver = createDriver(<Input width={120}/>);
+    expect(driver.getWidth()).toBe('120px');
+  });
 });
 
 describe('testkit', () => {

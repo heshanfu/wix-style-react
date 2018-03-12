@@ -449,6 +449,20 @@ describe('DatePicker', () => {
       expect(calendarDriver.isMonthCaptionExists()).toEqual(false);
     });
 
+    describe('`width` prop', () => {
+      const noop = () => {};
+
+      it('should be 120 by default', () => {
+        const {inputDriver} = createDriver(<DatePicker onChange={noop}/>);
+        expect(inputDriver.getWidth()).toBe('120px');
+      });
+
+      it('should allow to be changed', () => {
+        const {inputDriver} = createDriver(<DatePicker onChange={noop} width={4}/>);
+        expect(inputDriver.getWidth()).toBe('4px');
+      });
+    });
+
     describe('with year dropdown', () => {
       it('should give a possibility to choose date from another year', () => {
         const date = new Date(2015, 9, 2);
