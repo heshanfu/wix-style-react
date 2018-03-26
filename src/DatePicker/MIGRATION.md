@@ -1,4 +1,4 @@
-# Using `<DatePicker/>` in `wix-style-react` version 3.0.0
+# Migrating `<DatePicker/>` to `wix-style-react` version 3.0.0
 
 ## Glossary
 
@@ -66,10 +66,6 @@ these were either implemented wrong or not working at all:
 
 
 ## 3. component styles were updated to be in sync with Wix UI design system
-
-consumers of wix-style-react should not need to tweak styles as the
-library is intended for Wix related applications with unified look &
-feel.
 
 This can be considered a breaking change (especially for those doing
 screenshot testing) although not a major one.
