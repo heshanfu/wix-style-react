@@ -11,6 +11,10 @@ $dayHoverColor: $B50;
 }
 
 .root {
+  display: inline-block;
+}
+
+.calendarRoot {
   z-index: 1;
 }
 
@@ -56,6 +60,7 @@ $dayHoverColor: $B50;
     }
 
     &-Day {
+      box-sizing: border-box;
       display: flex;
       align-items: center;
       justify-content: center;

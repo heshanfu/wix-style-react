@@ -8,7 +8,6 @@ import Input from '../../src/Input';
 import Label from '../../src/Label';
 
 export default class Form extends Component {
-
   static propTypes = {
     onChange: PropTypes.func.isRequired,
     withLabel: PropTypes.bool,

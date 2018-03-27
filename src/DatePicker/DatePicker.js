@@ -124,7 +124,7 @@ export default class DatePicker extends WixComponent {
     filterDate: () => true,
     shouldCloseOnSelect: true,
     rtl: false,
-    width: 120
+    width: 150
   };
 
   constructor(props) {
@@ -142,8 +142,8 @@ export default class DatePicker extends WixComponent {
     super.componentDidMount();
 
     this._popper = new Popper(
-      this.refs.inputRef,
-      this.refs.calendarRef,
+      this.inputRef,
+      this.calendarRef,
       {
         placement: 'top-start'
       }
@@ -249,7 +249,11 @@ export default class DatePicker extends WixComponent {
     const keyHandler = this.keyHandlers[event.keyCode];
 
     if (keyHandler) {
-      event.preventDefault();
+      // TODO: dirty for now
+      // tab key should move focus so can't preventDefault
+      if (event.keyCode !== 9) {
+        event.preventDefault();
+      }
 
       if (!this.state.isOpen) {
         this.openCalendar();
@@ -336,21 +340,20 @@ export default class DatePicker extends WixComponent {
       onKeyDown: this._handleKeyDown,
       error,
       errorMessage,
-      width,
       ...(customInput ? customInput.props : {})
     };
 
     return (
-      <div>
-        <div ref="inputRef">
+      <div style={{width}} className={styles.root}>
+        <div ref={ref => this.inputRef = ref}>
           {React.cloneElement(customInput || <Input/>, inputProps)}
         </div>
 
         <div
-          ref="calendarRef"
+          ref={ref => this.calendarRef = ref}
           data-hook={calendarDataHook}
           className={classNames(
-            styles.root,
+            styles.calendarRoot,
             {
               [arrowStyles.root]: isOpen
             }

@@ -201,11 +201,13 @@ describe('DatePicker', () => {
       });
 
       it('on press "Tab" key', () => {
+        const preventDefault = jest.fn();
         const {inputDriver, calendarDriver} = createDriver(<DatePicker onChange={onChange}/>);
 
         inputDriver.trigger('click');
-        inputDriver.trigger('keyDown', {key: 'Tab', keyCode: 9});
+        inputDriver.trigger('keyDown', {key: 'Tab', keyCode: 9, preventDefault});
 
+        expect(preventDefault.mock.calls.length).toBe(0);
         expect(calendarDriver.isVisible()).toBe(false);
       });
 
@@ -452,14 +454,14 @@ describe('DatePicker', () => {
     describe('`width` prop', () => {
       const noop = () => {};
 
-      it('should be 120 by default', () => {
-        const {inputDriver} = createDriver(<DatePicker onChange={noop}/>);
-        expect(inputDriver.getWidth()).toBe('120px');
+      it('should be 150 by default', () => {
+        const {calendarDriver} = createDriver(<DatePicker onChange={noop}/>);
+        expect(calendarDriver.getWidth()).toBe('150px');
       });
 
       it('should allow to be changed', () => {
-        const {inputDriver} = createDriver(<DatePicker onChange={noop} width={4}/>);
-        expect(inputDriver.getWidth()).toBe('4px');
+        const {calendarDriver} = createDriver(<DatePicker onChange={noop} width={4}/>);
+        expect(calendarDriver.getWidth()).toBe('4px');
       });
     });
 
