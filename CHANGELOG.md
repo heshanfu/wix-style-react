@@ -12,6 +12,8 @@ Types of changes:
 1. **Security** in case of vulnerabilities.
 1. **Breaking** for breaking changes
 
+## 4.0.0
+
 ## 3.1.0 - 2018-04-08
 ### Added
 - `<Heading>` component [#1617](https://github.com/wix/wix-style-react/pull/1617)
