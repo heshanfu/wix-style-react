@@ -1,12 +1,12 @@
 @import '../../src/common.scss';
 
 .columnn-content {
-	background: transparentize(#fac249, .2);
+  background: transparentize(#fac249, 0.2);
 }
 
 .example-container {
-	background: $D70;
-	padding: 30px 48px;
+  background: $D70;
+  padding: 30px 48px;
 
   .actions {
     margin-bottom: 20px;
