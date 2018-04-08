@@ -1,0 +1,1378 @@
+.Badge3859144318--root {
+    cursor: default;
+}
+
+.Text2480945343--root {
+    -st-states: ellipsis;
+}
+
+/* ellipsis state */
+.Text2480945343--root[data-text2480945343-ellipsis] {
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.UIText1076817846--root.Text2480945343--root {
+  -st-extends: Text;
+  -st-states: appearance(string);
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #32536A;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.1"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.2"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #3899ec;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.3"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6c1cd;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.4"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.5"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #ee5951;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.5"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.6"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #aa4dc8;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.6"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.7"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #60bc57;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T1.7"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #7a92a5;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.1"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.2"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #3899ec;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.3"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6c1cd;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T2.4"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #32536A;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.1"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.2"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #3899ec;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.3"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #b6c1cd;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.4"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.5"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ee5951;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.5"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.6"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #aa4dc8;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.6"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.7"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #60bc57;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T3.7"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #32536A;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.1"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.2"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #3899ec;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.3"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #7a92a5;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.4"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.5"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #b6c1cd;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.5"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.6"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ee5951;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.6"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.7"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  color: #60bc57;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T4.7"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T5"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-65Medi", "HelveticaNeueW02-65Medi", "HelveticaNeueW10-65Medi", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 10px;
+  line-height: 12px;
+  color: #32536A;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T5"]{}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T5.1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-65Medi", "HelveticaNeueW02-65Medi", "HelveticaNeueW10-65Medi", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.UIText1076817846--root.Text2480945343--root[data-uitext1076817846-appearance="T5.1"]{}
+
+.Badge1803601789--root.Badge3859144318--root {
+  -st-extends: Badge;
+  -st-states: skin(string), type(string);
+}
+
+.Badge1803601789--root.Badge3859144318--root >:not(:last-child) {
+  margin-right: 6px;
+}
+/* 
+:global([dir="rtl"]) .root >:not(:last-child) {
+  margin-left: 6px;
+  margin-right: 0;
+} */
+
+.Badge1803601789--root .Badge1803601789--prefix,.Badge1803601789--root .Badge1803601789--suffix {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.Badge1803601789--root .Badge1803601789--text.UIText1076817846--root {
+  -st-extends: UIText;
+  color: currentColor;
+}
+
+/* type = transparent */
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="general"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #32536A;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="general"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="standard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #4eb7f5;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="standard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="danger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #ee5951;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="danger"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="success"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #60bc57;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="success"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutral"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #7a92a5;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutral"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="warning"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #fdb10c;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="warning"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="urgent"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #fb7d33;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="urgent"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralStandard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #c1e4fe;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralStandard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralSuccess"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #c9eebc;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralSuccess"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralDanger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #ffd7d7;
+    
+    background: transparent;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="transparent"][data-badge1803601789-skin="neutralDanger"]{}
+
+/* type = solid */
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="general"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #32536A;
+    color: #ffffff;
+    
+    background: #32536A;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="general"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="standard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #4eb7f5;
+    color: #ffffff;
+    
+    background: #4eb7f5;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="standard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="danger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #ee5951;
+    color: #ffffff;
+    
+    background: #ee5951;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="danger"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="success"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #60bc57;
+    color: #ffffff;
+    
+    background: #60bc57;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="success"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutral"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #7a92a5;
+    color: #ffffff;
+    
+    background: #7a92a5;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutral"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="warning"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fdb10c;
+    color: #ffffff;
+    
+    background: #fdb10c;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="warning"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="urgent"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fb7d33;
+    color: #ffffff;
+    
+    background: #fb7d33;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="urgent"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralStandard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #c1e4fe;
+    color: #32536A;
+    
+    background: #c1e4fe;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralStandard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralSuccess"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #c9eebc;
+    color: #32536A;
+    
+    background: #c9eebc;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralSuccess"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralDanger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #ffd7d7;
+    color: #32536A;
+    
+    background: #ffd7d7;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="solid"][data-badge1803601789-skin="neutralDanger"]{}
+
+
+/* type = outlined */
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="general"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #32536A;
+    color: #32536A;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="general"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="standard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #4eb7f5;
+    color: #4eb7f5;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="standard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="danger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #ee5951;
+    color: #ee5951;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="danger"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="success"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #60bc57;
+    color: #60bc57;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="success"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutral"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #7a92a5;
+    color: #7a92a5;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutral"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="warning"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fdb10c;
+    color: #fdb10c;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="warning"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="urgent"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fb7d33;
+    color: #fb7d33;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="urgent"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralStandard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #c1e4fe;
+    color: #32536A;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralStandard"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralSuccess"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #c9eebc;
+    color: #32536A;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralSuccess"]{}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralDanger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #ffd7d7;
+    color: #32536A;
+    
+    background: #ffffff;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.Badge1803601789--root.Badge3859144318--root[data-badge1803601789-type="outlined"][data-badge1803601789-skin="neutralDanger"]{}
+
+.Heading4201832699--root.Text2480945343--root {
+  -st-extends: Text;
+  -st-states: appearance(string), light;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H1"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-Thin", "HelveticaNeueW02-Thin", "HelveticaNeueW10-35Thin", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 36px;
+  line-height: 48px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H1"]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H1"][data-heading4201832699-light] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-Thin", "HelveticaNeueW02-Thin", "HelveticaNeueW10-35Thin", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H1"][data-heading4201832699-light]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H2"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 20px;
+  line-height: 24px;
+  color: #162d3d;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H2"]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H2"][data-heading4201832699-light] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H2"][data-heading4201832699-light]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H3"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 13px;
+  line-height: 24px;
+  color: #32536A;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H3"]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H3"][data-heading4201832699-light] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 13px;
+  line-height: 24px;
+  color: #b6c1cd;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H3"][data-heading4201832699-light]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H4"] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 10px;
+  line-height: 18px;
+  color: #32536A;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H4"]{}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H4"][data-heading4201832699-light] {
+  -st-extends: Text;
+  font-family: "HelveticaNeueW01-45Ligh", "HelveticaNeueW02-45Ligh", "HelveticaNeueW10-45Ligh", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", "meiryo", "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", "sans-serif";
+  font-size: 10px;
+  line-height: 18px;
+  color: #b6c1cd;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.Heading4201832699--root.Text2480945343--root[data-heading4201832699-appearance="H4"][data-heading4201832699-light]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root {
+  -st-extends: Badge;
+  -st-states: skin(string), wide;
+}
+
+.CounterBadge1287467614--root .CounterBadge1287467614--text.UIText1076817846--root {
+  -st-extends: UIText;
+  color: currentColor;
+}
+
+.CounterBadge1287467614--root .CounterBadge1287467614--icon {
+  width: 12px;
+  height: 12px;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="general"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #32536A;
+    color: white;
+    
+    background: #32536A;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="general"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="standard"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #3899ec;
+    color: white;
+    
+    background: #3899ec;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="standard"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="danger"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #ee5951;
+    color: white;
+    
+    background: #ee5951;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="danger"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="warning"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fdb10c;
+    color: white;
+    
+    background: #fdb10c;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="warning"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="urgent"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fb7d33;
+    color: white;
+    
+    background: #fb7d33;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="urgent"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="success"] {
+    -st-extends: Badge;
+    height: 24px;
+    padding: 4px 12px;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #60bc57;
+    color: white;
+    
+    background: #60bc57;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    line-height: 1;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="success"]{}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="general"],.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="standard"],.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="danger"],.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="warning"],.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="urgent"],.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-skin="success"] {
+  min-width: 18px;
+  border-radius: 12px;
+  border: initial;
+  height: 18px;
+  padding: 2px;
+}
+
+.CounterBadge1287467614--root.Badge3859144318--root[data-counterbadge1287467614-wide] {
+  padding: 2px 6px;
+}
