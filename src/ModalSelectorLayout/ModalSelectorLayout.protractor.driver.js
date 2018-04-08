@@ -1,7 +1,7 @@
 import {protractorTestkitFactoryCreator} from '../test-common';
 import loaderDriverFactory from '../Loader/Loader.protractor.driver';
 import buttonDriverFactory from '../Backoffice/Button/Button.protractor.driver';
-import textDriverFactory from '../Text/Text.protractor.driver';
+import textDriverFactory from '../Text/deprecated/Text.protractor.driver';
 import searchDriverFactory from '../Search/Search.protractor.driver';
 import {dataHooks} from './ModalSelectorLayout.helpers';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import WixComponent from '../BaseComponents/WixComponent';
 import Selector from '../Selector';
-import Text from '../Text';
+import Text from '../Text/deprecated';
 import ButtonWithOptions from '../ButtonWithOptions/ButtonWithOptions';
 import EditableRow from './EditableRow/EditableRow';
 import styles from './EditableSelector.scss';

@@ -3,7 +3,7 @@ import {Email} from 'wix-style-react/Icons';
 import DropdownComposite from '../../src/DropdownComposite';
 import Dropdown from '../../src/Dropdown';
 import Label from '../../src/Label';
-import Text from '../../src/Text';
+import Text from '../../src/Text/deprecated';
 import TextField from '../../src/TextField';
 import Input from '../../src/Input';
 import {SKIN, TYPE} from 'wix-ui-backoffice/dist/src/components/Badge/constants';

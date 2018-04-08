@@ -1,14 +1,10 @@
 import React from 'react';
-import ReactTestUtils from 'react-dom/test-utils';
 import textDriverFactory from './Text.driver';
-import {createDriverFactory} from '../test-common';
-import {textTestkitFactory} from '../../testkit';
-import {textTestkitFactory as enzymeTextTestkitFactory} from '../../testkit/enzyme';
-import {mount} from 'enzyme';
+import {createDriverFactory} from '../../test-common';
 
 import Text from './Text';
 import styles from './styles.scss';
-import typography from '../Typography';
+import typography from '../../Typography';
 
 describe('Component: Text', () => {
   const createDriver = createDriverFactory(textDriverFactory);
@@ -98,24 +94,5 @@ describe('Component: Text', () => {
       const driver = createDriver(<Text ellipsis>zombo</Text>);
       expect(driver.getTitle()).toBe('zombo');
     });
-  });
-});
-
-describe('testkit', () => {
-  it('should create new driver', () => {
-    const div = document.createElement('div');
-    const dataHook = 'myDataHook';
-    const wrapper = div.appendChild(ReactTestUtils.renderIntoDocument(<div><Text dataHook={dataHook} appearance="H0"/></div>));
-    const textTestkit = textTestkitFactory({wrapper, dataHook});
-    expect(textTestkit.getType()).toBe('h1');
-  });
-});
-
-describe('enzyme testkit', () => {
-  it('should create new driver', () => {
-    const dataHook = 'myDataHook';
-    const wrapper = mount(<Text dataHook={dataHook} appearance="T1">zombo</Text>);
-    const textTestkit = enzymeTextTestkitFactory({wrapper, dataHook});
-    expect(textTestkit.getText()).toBe('zombo');
   });
 });

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Text from '../../Text';
+import Text from '../../Text/deprecated';
 
 const TextLabel = ({children}) =>
   <Text

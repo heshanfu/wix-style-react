@@ -1,5 +1,5 @@
 import css from './Loader.scss';
-import textDriverFactory from '../Text/Text.protractor.driver';
+import textDriverFactory from '../Text/deprecated/Text.protractor.driver';
 import {protractorTestkitFactoryCreator} from '../test-common';
 
 const textTestkitFactory = protractorTestkitFactoryCreator(textDriverFactory);

@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import WixComponent from '../BaseComponents/WixComponent';
 import Arc from './Arc';
 import css from './Loader.scss';
-import Text from '../Text/Text';
+import Text from '../Text//deprecated';
 
 const arcsAngles = {
   small: {

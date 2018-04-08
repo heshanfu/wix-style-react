@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Card} from '../Grid';
 import WixComponent from '../BaseComponents/WixComponent';
 import styles from './StatsWidget.scss';
-import Text from '../Text';
+import Text from '../Text/deprecated';
 import classnames from 'classnames';
 import ArrowVertical from '../Icons/dist/components/ArrowVertical';
 import ButtonWithOptions from '../ButtonWithOptions';

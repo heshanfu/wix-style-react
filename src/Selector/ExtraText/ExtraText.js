@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import WixComponent from '../../BaseComponents/WixComponent';
-import Text from '../../Text';
+import Text from '../../Text/deprecated';
 
 class ExtraText extends WixComponent {
   static propTypes = {

@@ -138,9 +138,6 @@ export const filePickerTestkitFactory = testkitFactoryCreator(filePickerDriverFa
 import imageViewerDriverFactory from '../src/ImageViewer/ImageViewer.driver';
 export const imageViewerTestkitFactory = testkitFactoryCreator(imageViewerDriverFactory);
 
-import textDriverFactory from '../src/Text/Text.driver';
-export const textTestkitFactory = testkitFactoryCreator(textDriverFactory);
-
 import sideMenuDriverFactory from '../src/SideMenu/core/SideMenu.driver';
 export const sideMenuTestkitFactory = testkitFactoryCreator(sideMenuDriverFactory);
 
@@ -205,5 +202,6 @@ export {
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
   headingTestkitFactory,
   autocompleteTestkitFactory,
-  toggleSwitchTestkitFactory
+  toggleSwitchTestkitFactory,
+  textTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit';

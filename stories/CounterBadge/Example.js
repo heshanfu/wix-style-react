@@ -3,7 +3,7 @@ import {Email} from 'wix-style-react/Icons';
 import DropdownComposite from '../../src/DropdownComposite';
 import Dropdown from '../../src/Dropdown';
 import Label from '../../src/Label';
-import Text from '../../src/Text';
+import Text from '../../src/Text/deprecated';
 import {SKIN} from 'wix-ui-backoffice/dist/src/components/StylableCounterBadge/constants';
 import style from './CounterBadge.scss';
 import CounterBadge from 'wix-style-react/CounterBadge';

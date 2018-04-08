@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import WixComponent from '../BaseComponents/WixComponent';
-import Text from '../Text';
+import Text from '../Text/deprecated';
 import Button from '../Button';
 import CloseIcon from '../Icons/dist/components/Close';
 

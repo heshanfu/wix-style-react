@@ -4,7 +4,7 @@ import loaderDriverFactory from '../Loader/Loader.driver';
 import buttonDriverFactory from '../Backoffice/Button/Button.driver';
 import selectorDriverFactory from '../Selector/Selector.driver';
 import searchDriverFactory from '../Search/Search.driver';
-import textDriverFactory from '../Text/Text.driver';
+import textDriverFactory from '../Text/deprecated/Text.driver';
 import {dataHooks} from './ModalSelectorLayout.helpers';
 import checkboxDriverFactory from '../Checkbox/Checkbox.driver';
 
