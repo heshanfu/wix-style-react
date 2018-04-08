@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Tag.scss';
+import Close from 'wix-ui-icons-common/system/Close';
 import classNames from 'classnames';
+import styles from './Tag.scss';
 import WixComponent from '../BaseComponents/WixComponent';
 import Typography from '../Typography';
-import SmallX from '../Icons/dist/components/SmallX';
 
 /**
   * A Tag component
@@ -48,7 +48,7 @@ class Tag extends WixComponent {
             event.stopPropagation();
             onRemove(id);
           }}
-          ><SmallX/></a>}
+          ><Close/></a>}
       </span>
     );
   }
