@@ -119,6 +119,7 @@
     "react-remarkable": "^1.1.1",
     "react-transition-group": "^2.2.1",
     "slate": "^0.20.3",
+    "stylable": "5.3.0",
     "wix-animations": "^1.0.141",
     "wix-ui-backoffice": "^1.0.0",
     "wix-ui-icons-common": "^1.0.19",

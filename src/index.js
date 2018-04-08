@@ -35,7 +35,7 @@ export {default as SideMenu} from './SideMenu';
 export {default as SideMenuDrill} from './SideMenu/DrillView';
 export {default as DropdownLayout} from './DropdownLayout';
 export {default as Dropdown} from './Dropdown';
-export {default as Autocomplete} from './AutoComplete';
+export {default as Autocomplete} from './StylableAutocomplete';
 export {default as Label} from './Label';
 export {default as DataTable} from './DataTable';
 export {default as Text} from './Text';

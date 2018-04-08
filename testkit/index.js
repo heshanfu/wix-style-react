@@ -39,9 +39,6 @@ export const pageHeaderTestkitFactory = testkitFactoryCreator(pageHeaderDriverFa
 import languagePickerDriverFactory from '../src/LanguagePicker/LanguagePicker.driver';
 export const languagePickerTestkitFactory = testkitFactoryCreator(languagePickerDriverFactory);
 
-import autoCompleteDriverFactory from '../src/AutoComplete/AutoComplete.driver';
-export const autoCompleteTestkitFactory = testkitFactoryCreator(autoCompleteDriverFactory);
-
 import dropdownDriverFactory from '../src/Dropdown/Dropdown.driver';
 export const dropdownTestkitFactory = testkitFactoryCreator(dropdownDriverFactory);
 
@@ -75,8 +72,8 @@ export const textFieldTestkitFactory = testkitFactoryCreator(textFieldDriverFact
 import dropdownCompositeDriverFactory from '../src/DropdownComposite/DropdownComposite.driver';
 export const dropdownCompositeTestkitFactory = testkitFactoryCreator(dropdownCompositeDriverFactory);
 
-import autoCompleteCompositeDriverFactory from '../src/AutoCompleteComposite/AutoCompleteComposite.driver';
-export const autoCompleteCompositeTestkitFactory = testkitFactoryCreator(autoCompleteCompositeDriverFactory);
+import autocompleteCompositeDriverFactory from '../src/StylableAutocompleteComposite/AutocompleteComposite.driver';
+export const autocompleteCompositeTestkitFactory = testkitFactoryCreator(autocompleteCompositeDriverFactory);
 
 import multiSelectCompositeDriverFactory from '../src/MultiSelectComposite/MultiSelectComposite.driver';
 export const multiSelectCompositeTestkitFactory = testkitFactoryCreator(multiSelectCompositeDriverFactory);
@@ -209,5 +206,6 @@ export const sectionHelperTestkitFactory = testkitFactoryCreator(sectionHelperDr
 export {
   badgeTestkitFactory,
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
-  headingTestkitFactory
+  headingTestkitFactory,
+  autocompleteTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit';

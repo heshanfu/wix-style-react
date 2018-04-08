@@ -1,12 +1,12 @@
 import inputAreaWithLabelCompositeDriverFactory from '../Composite/InputAreaWithLabelComposite/InputAreaWithLabelComposite.driver';
 
-const autoCompleteDriverFactory = ({element, wrapper}) => {
+const autocompleteDriverFactory = ({element, wrapper}) => {
   const input = element.querySelector('input');
 
   return {
     ...inputAreaWithLabelCompositeDriverFactory({element, wrapper}),
-    hasAutoComplete: () => !!input
+    hasAutocomplete: () => !!input
   };
 };
 
-export default autoCompleteDriverFactory;
+export default autocompleteDriverFactory;

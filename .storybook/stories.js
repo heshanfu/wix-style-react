@@ -42,8 +42,8 @@ import '../stories/GoogleAddressInput'; // 3.11 GoogleAddressInput
 
 // 4. Selection
 import '../stories/Dropdown'; // 4.1 Dropdown
-import '../stories/AutoComplete'; // 4.1 + AutoComplete
-import '../stories/AutoCompleteComposite'; // 4.1 + AutoCompleteComposite
+import '../stories/StylableAutocomplete'; // 4.1 + StylableAutocomplete
+import '../stories/StylableAutocompleteComposite'; // 4.1 + StylableAutocompleteComposite
 import '../stories/InputWithOptions'; // 4.1 + InputWithOptions
 import '../stories/IconWithOptions'; // 4.1 + IconWithOptions
 import '../stories/ButtonWithOptions'; // 4.1 + ButtonWithOptions
