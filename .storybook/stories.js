@@ -50,7 +50,7 @@ import '../stories/ButtonWithOptions'; // 4.1 + ButtonWithOptions
 import '../stories/DropdownComposite'; // 4.1 + DropdownComposite
 import '../stories/Checkbox.story.js'; // 4.2 Checkbox
 import '../stories/RadioGroup.story.js'; // 4.3 RadioGroup
-import '../stories/ToggleSwitch.story.js'; // 4.4 ToggleSwitch
+import '../stories/ToggleSwitch'; // 4.4 ToggleSwitch
 import '../stories/Slider'; // 4.7 Slider
 import '../stories/GoogleAddressInputWithLabel'; // 4.8 Google address input
 

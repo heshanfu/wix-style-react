@@ -135,9 +135,6 @@ export const sliderTestkitFactory = testkitFactoryCreator(sliderDriverFactory);
 import filePickerDriverFactory from '../src/FilePicker/FilePicker.driver';
 export const filePickerTestkitFactory = testkitFactoryCreator(filePickerDriverFactory);
 
-import toggleSwitchDriverFactory from '../src/ToggleSwitch/ToggleSwitch.driver';
-export const toggleSwitchTestkitFactory = testkitFactoryCreator(toggleSwitchDriverFactory);
-
 import imageViewerDriverFactory from '../src/ImageViewer/ImageViewer.driver';
 export const imageViewerTestkitFactory = testkitFactoryCreator(imageViewerDriverFactory);
 
@@ -207,5 +204,6 @@ export {
   badgeTestkitFactory,
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
   headingTestkitFactory,
-  autocompleteTestkitFactory
+  autocompleteTestkitFactory,
+  toggleSwitchTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit';

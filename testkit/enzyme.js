@@ -135,9 +135,6 @@ export const timeInputTestkitFactory = enzymeTestkitFactoryCreator(timeInputDriv
 import sliderDriverFactory from '../src/Slider/Slider.driver';
 export const sliderTestkitFactory = enzymeTestkitFactoryCreator(sliderDriverFactory);
 
-import toggleSwitchDriverFactory from '../src/ToggleSwitch/ToggleSwitch.driver';
-export const toggleSwitchTestkitFactory = enzymeTestkitFactoryCreator(toggleSwitchDriverFactory);
-
 import imageViewerDriverFactory from '../src/ImageViewer/ImageViewer.driver';
 export const imageViewerTestkitFactory = enzymeTestkitFactoryCreator(imageViewerDriverFactory);
 
@@ -204,5 +201,6 @@ export {
   badgeTestkitFactory,
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
   headingTestkitFactory,
-  autocompleteTestkitFactory
+  autocompleteTestkitFactory,
+  toggleSwitchTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit/enzyme';
