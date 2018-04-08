@@ -1,11 +1,7 @@
 import React from 'react';
-import ReactTestUtils from 'react-dom/test-utils';
 import autoCompleteDriverFactory from './AutoComplete.driver';
 import AutoComplete from './AutoComplete';
 import {createDriverFactory} from '../test-common';
-import {autoCompleteTestkitFactory} from '../../testkit';
-import {autoCompleteTestkitFactory as enzymeAutoCompleteTestkitFactory} from '../../testkit/enzyme';
-import {mount} from 'enzyme';
 import {runInputWithOptionsTest} from '../InputWithOptions/InputWithOptions.spec';
 
 const asciiA = '97';
@@ -49,28 +45,5 @@ describe('Autocomplete', () => {
     inputDriver.enterText('aaa');
     inputDriver.focus();
     expect(dropdownLayoutDriver.optionsLength()).toBe(options.length);
-  });
-
-  describe('testkit', () => {
-    it('should exist', () => {
-      const div = document.createElement('div');
-      const dataHook = 'myDataHook';
-      const wrapper = div.appendChild(ReactTestUtils.renderIntoDocument(<div><AutoComplete dataHook={dataHook}/></div>));
-      const autoCompleteTestkit = autoCompleteTestkitFactory({wrapper, dataHook});
-      expect(autoCompleteTestkit.driver.exists()).toBeTruthy();
-      expect(autoCompleteTestkit.inputDriver.exists()).toBeTruthy();
-      expect(autoCompleteTestkit.dropdownLayoutDriver.exists()).toBeTruthy();
-    });
-  });
-
-  describe('enzyme testkit', () => {
-    it('should exist', () => {
-      const dataHook = 'myDataHook';
-      const wrapper = mount(<AutoComplete dataHook={dataHook}/>);
-      const autoCompleteTestkit = enzymeAutoCompleteTestkitFactory({wrapper, dataHook});
-      expect(autoCompleteTestkit.driver.exists()).toBeTruthy();
-      expect(autoCompleteTestkit.inputDriver.exists()).toBeTruthy();
-      expect(autoCompleteTestkit.dropdownLayoutDriver.exists()).toBeTruthy();
-    });
   });
 });
