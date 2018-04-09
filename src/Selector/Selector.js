@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import WixComponent from '../BaseComponents/WixComponent';
 import Checkbox from '../Checkbox';
 import RadioButton from '../RadioGroup/RadioButton/RadioButton';
-import Text from '../Text/deprecated';
+import Text from '../Deprecated/Text';
 import styles from './Selector.scss';
 import ExtraText from './ExtraText';
 import ExtraIcon from './ExtraIcon';

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import DropdownLayout from '../../DropdownLayout';
-import Text from '../../Text/deprecated';
+import Text from '../../Deprecated/Text';
 import {ArrowDownThin} from '../../Icons';
 import styles from './styles.scss';
 

@@ -8,7 +8,7 @@ import FooterLayout from '../MessageBox/FooterLayout';
 import Selector from '../Selector/Selector';
 import Search from '../Search/Search';
 import InfiniteScroll from '../DataTable/InfiniteScroll';
-import Text from '../Text/deprecated';
+import Text from '../Deprecated/Text';
 import {dataHooks} from './ModalSelectorLayout.helpers';
 import Checkbox from '../Checkbox';
 

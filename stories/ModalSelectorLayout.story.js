@@ -3,7 +3,7 @@ import times from 'lodash/times';
 
 import ModalSelectorLayout from 'wix-style-react/ModalSelectorLayout';
 import Button from 'wix-style-react/Button';
-import Text from '../src/Text/deprecated';
+import Text from '../src/Deprecated/Text';
 
 const ITEMS = times(50, i => ({
   id: i,

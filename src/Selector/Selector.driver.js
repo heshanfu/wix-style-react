@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 import {testkitFactoryCreator} from '../test-common';
 import {isClassExists} from '../../test/utils';
-import textDriverFactory from '../Text/deprecated/Text.driver';
+import textDriverFactory from '../Deprecated/Text/Text.driver';
 
 const textTestkitFactory = testkitFactoryCreator(textDriverFactory);
 

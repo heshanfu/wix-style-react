@@ -3,7 +3,7 @@ import {arrayOf, func, oneOf, oneOfType, node, number, shape, string, any, bool}
 import styles from './Breadcrumbs.scss';
 import classnames from 'classnames';
 import WixComponent from '../BaseComponents/WixComponent';
-import Text from '../Text/deprecated';
+import Text from '../Deprecated/Text';
 import BreadcrumbsPathFactory from './BreadcrumbsPathFactory';
 import BreadcrumbsChevronRight from 'wix-ui-icons-common/system/BreadcrumbsChevronRight';
 
